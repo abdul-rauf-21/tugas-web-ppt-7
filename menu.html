@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu</title>
+	<style>
+		
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		body{
+			font-family: Verdana;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+		}
+
+		#menu{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin: 1rem;
+		}
+
+		ul{
+			margin-top: 1rem;
+		}
+
+		ul > li{
+			list-style: none; 
+			padding: 0.4rem;
+		}
+
+		ul > li > a{
+			text-decoration: none;
+			color: black;
+		}
+
+		ul > li > a:hover{
+			text-decoration: underline;
+		}
+
+		ul > li > a:focus{
+			color: #3498db;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="menu">
+		<h1>Menu</h1>
+		<ul>
+			<li><a href="contents/table.html" target="content">Table Data</a></li>
+			<li><a href="contents/video.html" target="content">Video</a></li>
+			<li><a href="contents/music.html" target="content">Music</a></li>
+		</ul>
+	</div>
+</body>
+</html>
